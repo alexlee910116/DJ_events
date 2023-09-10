@@ -27,7 +27,7 @@ export default function EventPage({ evt }) {
             {evt.attributes.date} at {evt.attributes.time}
           </span>
           <h1>{evt.attributes.name}</h1>
-          {evt.attributes.image && (
+          {evt.attributes.image.data && (
             <div className={styles.image}>
               <Image src={evt.attributes.image.data.attributes.formats.large.url} width={960} height={600} />
             </div>

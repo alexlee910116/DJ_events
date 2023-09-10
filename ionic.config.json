@@ -1,0 +1,7 @@
+{
+  "name": "dj-event-frontend",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "custom"
+}
